@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-justify: auto;
+    color: white;
+    margin: 30px;;
+}
+
+a{
+    color: #FFFF00;
+    font-size: medium;
+    
+}
+
+footer{
+    margin: 10px;;
+    background-color: #0000CD;
+    padding: 5px;;
+}
+
+section{
+    margin: 10px;;
+}
+
+#title1{
+    margin: 10px;;
+}
+
+.subtitle{
+    margin: 10px;;
+}
+
+.post_title{
+    margin: 10px;;
+}
+
+.post{
+    background-color: #7B68EE;
+    padding: 10px;;
+}
