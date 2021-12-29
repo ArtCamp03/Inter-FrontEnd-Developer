@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin: 2px;
+}
+
+.navbar{
+    background-color: #FFFF00;
+}
+
+#Logo{
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+}
+
+#quemSomos{
+    background-color: #FFF5EE;
+}
+
+#parceiros{
+    background-color: #EEE5DE;
+}
+
+#serviços{
+    background-color: #CDC0B0;
+}
+.margin{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bg-footer{
+    color: white;
+    background-color: black;
+    padding: 2px;
+}
