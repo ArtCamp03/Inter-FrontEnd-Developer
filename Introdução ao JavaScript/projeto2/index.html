@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Projeto 2 - Contador</title>
+</head>
+
+<body>
+    <h1>Seja Bem vindo </h1>
+    <br>
+    <h2>Contador !!</h2>
+    <br>
+    <p>
+        Clique nos botoes para alterar os valores
+    </p>
+
+    <div id="counter">
+        <button class="subtrair" name="subtrair1" onclick="decrement()" >-</button>
+        <span id="currentNumber">0</span>
+        <button class="adicionar" name="adicionar1" onclick="increment()" >+</button>
+
+        <div class="operacao">
+
+            <span id="operador"> </span>
+
+            <button class="sub" name="sub" onclick="subtrai()">-</button>
+            
+            <button class="soma" name="soma" onclick="soma()">+</button>
+    
+            <button class="mult" name="mult" onclick="mult()">*</button>
+            
+            <button class="divide" name="divide" onclick="divide()">/</button>
+        </div>
+        
+
+        <button class="subtrair" name="subtrair2" onclick="decrement2()" >-</button>
+        <span id="currentNumber2">0</span>
+        <button class="adicionar" name="adicionar2" onclick="increment2()" >+</button>
+    </div>
+
+    <br>
+
+    <div >
+        <button><reset/button>
+        <button>calcular</button>
+    </div>
+
+    <div class="resultado">
+        <span id="result">0</span>
+        Resultado
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
