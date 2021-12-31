@@ -78,3 +78,30 @@ span{
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.reset{
+    color: black;
+    background-color: grey;
+}
+
+.calcular{
+    color: black;
+    background-color: white;
+}
+
+.calculator{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 10%;
+    padding: 5px;
+    color: black;
+    background-color: grey;
+}
+
+a{
+    margin-left: 10px;
+    color: black;
+}
