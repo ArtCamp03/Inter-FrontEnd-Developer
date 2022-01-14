@@ -1,7 +1,19 @@
 const path = require("path");
 
-export const entry = './teste.js';
-export const output = {
-    path: resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
-};
+module.exports = {
+    entry : './src/index.js',
+    output: {
+        path: path.relative(__dirname, 'dist'),
+        filename: 'bundler.js'
+    },
+    module: {
+        rules: {
+            test: /\.(js|jsx)$/,
+            exclude: /node_modules/,
+            use: {
+                loader: "babel.loader"
+            }
+        }
+    }
+}
+ 

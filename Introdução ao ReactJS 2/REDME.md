@@ -10,3 +10,5 @@ comando de instalaçao:
 // criaçao do arquivo webpack.confiug.js
 npm install --save dev webpack webpack-cli
 
+// instalando babel
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
