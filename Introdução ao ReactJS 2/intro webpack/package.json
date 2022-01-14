@@ -1,0 +1,13 @@
+{
+  "name": "intro-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teste.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "Artur R Campos",
+  "license": "ISC",
+  "webpack": "4.35.3",
+  "webpack-cli": "3.3.5"
+}
