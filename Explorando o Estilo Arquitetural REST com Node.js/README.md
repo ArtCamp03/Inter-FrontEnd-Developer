@@ -18,3 +18,6 @@ npm install --save-dev @types/express
 
 // biblioteca
 npm install --save-dev ts-node-dev
+
+// pacote response
+npm install http-status-codes
